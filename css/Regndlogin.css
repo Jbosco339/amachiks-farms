@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+#header11{
+    width: 100%;
+    background-color: rgb(168, 186, 141);
+}
+#navving{
+    width: 90%;
+    background-color: rgb(168, 186, 141);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#headerdiv44{
+    width: 10%;
+    background-color: rgb(168, 186, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header_ul{
+    width: 48%;
+    background-color: rgb(168, 186, 141);
+    display: flex;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 10px;
+}
+#header_ul2{
+    width: 28%;
+    background-color: rgb(168, 186, 141);
+    display: flex;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 10px;
+}
+.headerli{
+    width: 31.33%;
+    background-color: rgb(168, 186, 141);
+    margin: 1%;
+    border-radius: 6px;
+}
+
+.logo{
+    width: 30px;
+    padding: 5%;
+    border-radius: 10px;
+}
+/* BODY BEGINS HERE */
+#aboutsec{
+    width: 100%;
+    background-color: rgb(105, 203, 105);
+    flex-direction: column;
+    display: flex;
+}
+#abou_inner{
+    width: 90%;
+    background-color: green;
+    margin: auto;
+}
+.about_div{
+    width: 95%;
+    background-color: rgb(105, 203, 105);
+    padding: 1%;
+    border-radius: 10px;
+    margin: 1%;
+}
