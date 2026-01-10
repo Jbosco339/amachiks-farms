@@ -48,6 +48,13 @@
 }
 .resizelogo{
     width: 15%;
+    
+}
+.headerli{
+    margin: 5px;
+}
+.logo{
+    margin: 3%;
 }
 .footertwit{
     width: 25px;
@@ -61,5 +68,12 @@
 }
 #bak{
     background-color: rgb(105, 203, 105);
+}
+#hamburger_div{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 

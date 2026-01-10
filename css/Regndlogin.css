@@ -6,6 +6,9 @@
     text-decoration: none;
     scroll-behavior: smooth;
 }
+a{
+    color: black;
+}
 #header11{
     width: 100%;
     background-color: rgb(168, 186, 141);
@@ -43,7 +46,7 @@
 .headerli{
     width: 31.33%;
     background-color: rgb(168, 186, 141);
-    margin: 1%;
+    margin: 3%;
     border-radius: 6px;
 }
 
@@ -55,12 +58,13 @@
 /* BODY BEGINS HERE */
 #aboutsec{
     width: 100%;
+    height: 100vh;
     background-color: rgb(105, 203, 105);
     flex-direction: column;
     display: flex;
 }
 #abou_inner{
-    width: 90%;
+    width: 50%;
     background-color: green;
     margin: auto;
 }
@@ -70,4 +74,30 @@
     padding: 1%;
     border-radius: 10px;
     margin: 1%;
+    text-align: center;
 }
+#hamburger_div{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.set1_input{
+    width: 60%;
+    border-radius: 3px;
+    padding: 8px;
+    border: none;
+}
+.select{
+    width: 60%;
+    padding: 3px;
+}
+#submit{
+    width: 40%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid yellow;
+    background-color: blanchedalmond;
+}
+
