@@ -73,7 +73,7 @@ a{
     background-color: rgb(105, 203, 105);
     padding: 1%;
     border-radius: 10px;
-    margin: 1%;
+    margin: 1% auto;
     text-align: center;
 }
 #hamburger_div{
@@ -99,5 +99,24 @@ a{
     border-radius: 4px;
     border: 1px solid yellow;
     background-color: blanchedalmond;
+}
+form{
+    text-align: center;
+}
+#login_div{
+    width: 90%;
+    background-color: rgb(17, 136, 17);
+    padding-top: 10%;
+    margin: auto;
+    padding-bottom: 10%;
+}
+#login_page_body{
+    background-color: green;
+}
+.login_input{
+    width: 40%;
+    border-radius: 3px;
+    padding: 8px;
+    border: none;
 }
 

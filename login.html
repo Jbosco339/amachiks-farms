@@ -6,7 +6,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="css/Regndlogin.css">
 </head>
-<body>
+<body id="login_page_body">
 
 
     <header id="header11">
@@ -25,18 +25,21 @@
            
         </nav>
     </header>
-
-    <form action="">
-    <label for="">email</label><br>
-    <input type="email"><br><br>
+   <main>
+    <div id="login_div">
+         <form action="">
+    <label for="" class="login_input">Email</label><br>
+    <input type="email" class="login_input"><br><br>
 
     <label for="">Password</label><br>
-    <input type="password"><br><br>
+    <input type="password" class="login_input"><br><br>
 
-    <button>SUBMIT</button>
+    <button class="login_input">SUBMIT</button>
 
 
     </form>
+    </div>
+   </main>
 </body>
 
 <script src="amachiks.js"></script>
