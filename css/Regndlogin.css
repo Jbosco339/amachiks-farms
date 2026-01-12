@@ -78,7 +78,7 @@ a{
 }
 #hamburger_div{
     width: 5%;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     cursor: pointer;
@@ -118,5 +118,88 @@ form{
     border-radius: 3px;
     padding: 8px;
     border: none;
+}
+.submit{
+    background-color: rgb(93, 91, 91);
+}
+
+/* THE HAMBURGER DROPDOWN BEGIN HERE */
+
+/* this is the entire dropdown section where we blur some parts */
+#Dropdown_sec{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: none;
+    position: fixed;
+    backdrop-filter: blur(4px);
+    z-index: 20;
+}
+
+/* this is the subsection that holds the dropdown directly we can give it our desired height and width */
+#TheUl_Dropdown{
+    width: 35%;
+    height: 80%;
+    background-color: gray;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10%;
+    border-radius: 20px;
+}
+
+/* this is the actual list of dropdown that is the write-up */
+.list_anchor{
+    width: 100%;
+    background-color: none;
+    margin: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 25px;
+    color: black;
+
+}
+
+/* The exit button is styled here */
+#exit_button{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(191, 191, 184);
+    right: 3%;
+    top: 2%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 15px;
+    color: red;
+}
+
+.dropDown_icon{
+    width: 15%;
+    border-radius: 10px;
+    margin: 1%;
+}
+#dropDown_icon2{
+    width: 15%;
+    margin: 1%;
+}
+.list_anchor a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#close_img{
+    width: 100%;
+}
+.footer_link{
+    color: skyblue;
 }
 

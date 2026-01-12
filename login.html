@@ -5,8 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="css/Regndlogin.css">
+    <link rel="stylesheet" href="css/mediaquerry.css">
 </head>
 <body id="login_page_body">
+    <!-- DROPDOWN CODE HERE -->
+    <section id="Dropdown_sec">
+        <ul id="TheUl_Dropdown">
+            <div id="exit_button"><img src="img/closebv.png" id="close_img" alt=""></div>
+            <li><a class="list_anchor" href="index.html">Amachiks</a></li>
+            <li><a class="list_anchor" href="Gallery.html">Picture Gallery</a></li>
+            <li><a class="list_anchor" href="About.html">About</a></li>
+            <li><a class="list_anchor" href="contactUs.html">Contact Us</a></li>
+            <li><a class="list_anchor" href="Register.html">Register</a>
+            <li><a class="list_anchor" href="login.html">Login</a>
+            </li>
+        </ul>
+    </section>
 
 
     <header id="header11">
@@ -22,7 +36,9 @@
                 <li class="headerli"><a href="Register.html" target="_blank">Register</a></li>
                 
             </ul>
-           
+                <div id="hamburger_div">
+                <img src="img/menu-burger.png" id="hamburger" alt="">
+                </div>
         </nav>
     </header>
    <main>
@@ -34,7 +50,7 @@
     <label for="">Password</label><br>
     <input type="password" class="login_input"><br><br>
 
-    <button class="login_input">SUBMIT</button>
+    <button class="submit login_input">SUBMIT</button>
 
 
     </form>

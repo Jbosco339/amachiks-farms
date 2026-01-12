@@ -8,6 +8,7 @@
 }
 #aboutsec{
     width: 100%;
+    height: 100vh;
     background-color: rgb(105, 203, 105);
     flex-direction: column;
     display: flex;
@@ -35,16 +36,11 @@
 #footer_ul{
     width: 90%;
     display: flex;
-}
-.footers{
-    width: 18%;
-    background-color: rgb(7, 140, 78);
-    margin: 1%;
-    padding: 1%;
-    display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+}
+.footers{
+    width: 8%;
 }
 .resizelogo{
     width: 15%;
@@ -71,7 +67,7 @@
 }
 #hamburger_div{
     width: 5%;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     cursor: pointer;
